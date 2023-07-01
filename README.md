@@ -1,6 +1,6 @@
 Presentación del proyecto
 
-El presente proyecto se centra en la creación de una aplicación web orientada a la comercialización de notebooks y la prestación de servicios de limpieza especializados, clasificados en las categorías gamer, design y office. Nuestro enfoque se dirige hacia el público gamer y de diseño que demanda equipos de alto rendimiento.
+El presente proyecto se centra en la creación de una aplicación web orientada a la comercialización de productos de informática hardware y la prestación de servicios de mantenimiento especializados, clasificados en las categorías gamer, design y office. Nuestro enfoque se dirige hacia el público de uso popular y de diseño que demanda equipos de alto rendimiento.
 
 Referencias clave:
 
