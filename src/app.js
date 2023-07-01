@@ -1,16 +1,14 @@
 // Modules
 const express = require('express');
 const app = express();
-const path = require('path');
 
 const mainRouter = require('./routes/mainRouter');
 const userRouter = require('./routes/userRouter');
 
 // Configuration
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static('public')); // Se ha cambiado esta línea
 
 // Template Engine
-app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 // Rutas
