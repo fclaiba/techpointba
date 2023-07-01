@@ -1,0 +1,318 @@
+/* HOME */
+.img-main{
+    background-image: url("/img/img-first.svg");
+    height: 1500px;
+    width: auto;
+    
+}
+
+header nav a img{
+    width: 70px;
+}
+
+section div.section-bg-color{
+    background:  linear-gradient(174.4deg,
+    #28272C 4.79%, #451D66 24.24%, rgba(76,
+    0, 199, 0.87) 52.7%, #000000 95.39%);
+    width: 100%;
+    height: 1280px;
+}
+
+.btn-head:hover{
+    box-shadow: 0px 0px 12px rgb(194, 0, 253)
+}
+
+.card-home:hover{
+    box-shadow: 0px 0px 12px rgb(194, 0, 253)
+}
+
+.titulo{
+    font-size: 30px;
+    line-height: 38px;
+}
+
+.titulo-secundario{
+    font-size: 15px;
+    line-height: 10px;
+}
+
+.titulo-bold{
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.card-title-home{
+    color: white;
+    font-size: 50px;
+    margin-top: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.title-limpiezas{
+    font-size: 48px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.card-text-home{
+    font-size: 16px;
+    max-width: 80%;
+    margin-left: 25px;
+}
+
+.precio-card-home{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-home{
+    background-color: rgba(55, 52, 52, 0.55);
+    height: 36vh;
+    border-radius: 30px;
+    padding-bottom: 50px;
+    max-width: 400px;
+}
+
+.linea-sep-card{
+    border: white solid 2px;
+    width: 40px;
+}
+
+.linea-sep-card-limpieza{
+    border: white solid 3px;
+    width: 40px;
+    opacity: 1;
+    margin-right: 60px;
+}
+
+
+
+.btn-head{
+    width: 180px;
+    height: 48px;
+    background: linear-gradient(90deg, #1B1B43 2.5%,
+    #5D21C3 51.25%, #3B1D81 100%);
+    border-radius: 30px;
+    border:none;
+}
+
+.light-prog{
+max-width: 230px;
+}
+
+.titulo-quienes-somos{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 28px;
+}
+
+/* EQUIPOS */
+
+.section-bg-color-equipos{
+    background: rgb(0,0,0);
+    background: linear-gradient(169deg, rgba(0,0,0,1) 9%, rgba(180,3,49,1) 49%, rgba(145,72,117,1) 69%, rgba(45,26,67,1) 100%);
+}
+
+.card-equipos{
+    background-color: rgba(55, 52, 52, 0.55);
+}
+
+.title-equipos{
+    font-size: 48px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+.img-main-equipos{
+    background-image: url("/img/img-equipos.svg");
+    height: 600px;
+}
+
+.card-equipos:hover{
+    box-shadow: 0px 0px 12px rgb(194, 0, 253)
+}
+
+.card-title{
+    height: 90px;
+}
+
+
+/* LOGIN */
+
+.bg-login{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 5%, rgba(194,21,183,1) 40%, rgba(34,29,191,1) 60%, rgba(0,0,0,1) 95%);
+}
+
+
+/* REGISTER */
+
+.card-register{
+    background-color: rgba(55, 52, 52, 0.55);
+    border-radius: 15px;
+}
+
+.bg-image-register{
+    background-image: url('/img/img-register.jpg');
+    background-position: 50% 50%;
+}
+/* CARRITO */
+
+.section-bg-color-carrito{
+    background: rgb(115,0,249);
+    background: linear-gradient(180deg, rgba(115,0,249,1) 20%, rgba(7,133,246,1) 50%, rgba(115,0,249,1) 84%);
+    
+}
+
+.card-carrito:hover{
+    box-shadow: 0px 0px 40px rgb(194, 0, 253)
+}
+
+.card-carrito{
+    background-color: rgba(55, 52, 52, 0.55);
+}
+
+.borrar-producto:hover{
+    color: rgb(248, 65, 65);
+}
+
+.carrito-trash{
+    color: #cecece;
+}
+
+.img-productos-carrito{
+    display: none;
+}
+
+/* MEDIA QUERY */
+
+@media(min-width:768px){
+    .card-text-home{
+        margin-left: 30px;
+    }
+
+    .style-nav{
+        font-size: 13px;
+    }
+    .img-nosotros{
+        max-width: 65%;
+    }
+
+    .section-limpiezas{
+        margin-left: 100px;
+        margin-top: 50px;
+        margin-bottom: 150px;
+    }
+
+    .quienes-somos{
+        padding-top: 40px;
+    }
+
+    .card-home{
+        margin-right: 15px;
+        height: 45vh;
+        max-width: 300px;
+    }
+
+    .linea-sep-card-limpieza{
+        width: 45px;
+    }
+
+    .titulo-quienes-somos{
+        font-size: 40px;
+    }
+
+    .title-limpiezas{
+        font-size: 68px;
+    }
+
+    section div.section-bg-color{
+        height: 1000px;
+    }
+
+
+    /*login*/
+
+    .image{
+        width: 550px;
+        
+    }
+    
+    .card-login{
+        display: flex;
+        justify-content: center;
+    }
+
+    /*carrito*/
+
+    .img-productos-carrito{
+        display: flex;
+    }
+} 
+
+@media(min-width:992px){
+.img-nosotros {
+    max-width: 100%;
+}
+.quienes-somos{
+        padding-top: 120px;
+    }
+
+.card-home{
+    height: 45vh;
+}
+    /* CARRITO */
+
+.h-custom{
+    height: 100vh !important;
+}
+section div.section-bg-color{
+    height: 800px;
+}
+
+
+
+}
+
+
+@media(min-width:1200px){
+    .card-home{
+        height: 60vh;
+        max-width: 450px;
+    }
+    .titulo{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .titulo-bold{
+        font-size: 70px;
+        line-height: 78px;
+    }
+    .titulo-secundario{
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .section-limpiezas{
+    margin-bottom: 330px;
+    }
+
+    .title-limpiezas{
+        font-size: 90px;
+    }
+    .card-text-home{
+        margin-left: 30px;
+    }
+
+    .linea-sep-card-limpieza{
+        max-width: 5%;
+        
+    }
+
+    .titulo-quienes-somos{
+        font-size: 46px;
+    }
+
+    /*Login*/
+    .bg-login{
+        height: 500px;}
+
+}
+

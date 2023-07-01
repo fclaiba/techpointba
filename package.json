@@ -1,0 +1,24 @@
+{
+  "name": "techpointba",
+  "version": "1.0.0",
+  "description": "proyecto de desarrollo para la tienda techpointba",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fclaiba/techpointba.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fclaiba/techpointba/issues"
+  },
+  "homepage": "https://github.com/fclaiba/techpointba#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
