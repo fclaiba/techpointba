@@ -1,22 +1,23 @@
 [
     {
         "id": 1,
-        "usuario": "juan",
-        "email": "juan@gmail.com",
-        "contraseña": "contraseña123",
+        "usuario": "pepe38",
+        "email": "gabriel@gmail.com",
+        "contraseña": "gabi123",
         "categoria": "usuario"
     },
+    
     {
         "id": 2,
-        "usuario": "juan 2",
-        "email": "juan2@gmail.com",
-        "contraseña": "123456",
+        "usuario": "pepe38",
+        "email": "nicolas@gmail.com",
+        "contraseña": "nico123",
         "categoria": "super usuario"
     },
     {
         "id": 3,
-        "usuario": "juan 3",
-        "email": "juan3@gmail.com",
+        "usuario": "pepe38",
+        "email": "jeronimo@gmail.com",
         "contraseña": "jerp123",
         "categoria": "usuario"
     }

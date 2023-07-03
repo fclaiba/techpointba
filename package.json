@@ -1,10 +1,10 @@
 {
   "name": "techpointba",
   "version": "1.0.0",
-  "description": "proyecto de desarrollo para la tienda techpointba",
+  "description": "proyecto portafolio",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon ./app.js"
+    "start": "nodemon ./src/app.js"
   },
   "repository": {
     "type": "git",
@@ -18,12 +18,10 @@
   },
   "homepage": "https://github.com/fclaiba/techpointba#readme",
   "dependencies": {
-    "ejs": "^3.1.9",
+    "ejs": "^3.1.8",
     "express": "^4.18.2",
-    "glob-parent": "^6.0.2",
-    "nodemon": "^1.14.9"
-  },
-  "devDependencies": {
-    "chokidar": "^3.5.3"
+    "method-override": "^3.0.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20"
   }
 }
