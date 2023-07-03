@@ -6,7 +6,7 @@ const mainRouter = require('./routes/mainRouter');
 const userRouter = require('./routes/userRouter');
 
 // Configuration
-app.use(express.static('public')); // Se ha cambiado esta línea
+app.use(express.static(__dirname + '/../public'));
 
 // Template Engine
 app.set('view engine', 'ejs');
