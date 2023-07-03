@@ -1,0 +1,32 @@
+# Archivos compilados
+*.o
+*.class
+*.pyc
+
+# Archivos generados por el entorno de desarrollo
+.idea/
+.vscode/
+*.swp
+
+# Dependencias y paquetes
+/node_modules/
+/bower_components/
+
+# Archivos de compilación
+/build/
+/dist/
+
+# Archivos de registro y salida
+/logs/
+*.log
+
+# Archivos sensibles o de configuración local
+.env
+.env.local
+.env.*.local
+.env.test
+.env.production
+
+# Archivos de respaldo
+*~
+*.bak
