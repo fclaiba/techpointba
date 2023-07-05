@@ -1,17 +1,17 @@
-Presentaci髇 del proyecto
+Presentaci贸n del proyecto
 
-El presente proyecto se centra en la creaci髇 de una aplicaci髇 web orientada a la comercializaci髇 de productos de inform醫ica hardware y la prestaci髇 de servicios de mantenimiento especializados, clasificados en las categor韆s gamer, design y office. Nuestro enfoque se dirige hacia el p鷅lico de uso popular y de dise駉 que demanda equipos de alto rendimiento.
+El presente proyecto se centra en la creaci贸n de una aplicaci贸n web orientada a la comercializaci贸n de productos de inform谩tica hardware y la prestaci贸n de servicios de mantenimiento especializados, clasificados en las categor铆as gamer, design y office. Nuestro enfoque se dirige hacia el p煤blico de uso popular y de dise帽o que demanda equipos de alto rendimiento.
 
 Referencias clave:
 
-MSI: https://www.msi.com/Laptops Este sitio web es una fuente de referencia para determinar la distribuci髇 de productos y obtener informaci髇 relevante sobre los mismos.
+MSI: https://www.msi.com/Laptops Este sitio web es una fuente de referencia para determinar la distribuci贸n de productos y obtener informaci贸n relevante sobre los mismos.
 
-ASUS: https://www.asus.com/ar/ Hemos tomado como referencia el formato del carrito de compras en este sitio, con la intenci髇 de ofrecer una experiencia similar a nuestros usuarios.
+ASUS: https://www.asus.com/ar/ Hemos tomado como referencia el formato del carrito de compras en este sitio, con la intenci贸n de ofrecer una experiencia similar a nuestros usuarios.
 
-ACER: https://www.acer.com/ar-es/predator En ACER, nos ha llamado poderosamente la atenci髇 la atractiva paleta de colores utilizada tanto en el fondo como en las im醙enes, lo cual nos ha inspirado en nuestro dise駉.
+ACER: https://www.acer.com/ar-es/predator En ACER, nos ha llamado poderosamente la atenci贸n la atractiva paleta de colores utilizada tanto en el fondo como en las im谩genes, lo cual nos ha inspirado en nuestro dise帽o.
 
-HP: https://www.hp.com/ar-es/shop/notebooks/notebooks-personales/notebooks-omen.html HP cuenta con un sistema de puntuaci髇 para cada equipo, lo cual brinda la posibilidad de dejar opiniones y valoraciones, una funci髇 que tambi閚 deseamos implementar.
+HP: https://www.hp.com/ar-es/shop/notebooks/notebooks-personales/notebooks-omen.html HP cuenta con un sistema de puntuaci贸n para cada equipo, lo cual brinda la posibilidad de dejar opiniones y valoraciones, una funci贸n que tambi茅n deseamos implementar.
 
-MELON: https://www.melonstore.com.ar/productos/sillon-gamer-melon-butaca-gaming-2-almohadones-90042/ Aunque no se trata de productos similares, en Melon nos ha cautivado su dise駉 de ventas y facturaci髇, del cual nos hemos inspirado para mejorar nuestra propuesta.
+MELON: https://www.melonstore.com.ar/productos/sillon-gamer-melon-butaca-gaming-2-almohadones-90042/ Aunque no se trata de productos similares, en Melon nos ha cautivado su dise帽o de ventas y facturaci贸n, del cual nos hemos inspirado para mejorar nuestra propuesta.
 
 Enlace al repositorio de GitHub: https://github.com/fclaiba/techpointba.git

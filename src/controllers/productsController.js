@@ -36,9 +36,6 @@ const controllerProduct = {
     detailProduct: (req,res) => {
             let product = products.find ( row => row.id == req.params.id)
         if (product) return res.render("products/detailProduct" , {product:product });
-        //else return res.send('Producto no encontrado');
-
-        //return res.render("products/detailProduct");
     },
 
     delete: (req, res) => {
@@ -48,7 +45,6 @@ const controllerProduct = {
     },
 
     update: (req, res) => {
-        console.log(req.body)
         products.forEach(row => {
             if (row.id == req.params.id) {
                 row.marca = req.body.marca

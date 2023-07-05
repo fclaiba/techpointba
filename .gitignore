@@ -1,32 +1,37 @@
-# Archivos compilados
-*.o
+# Archivos de compilación y ejecutables
+*.exe
+*.dll
 *.class
-*.pyc
+*.o
 
-# Archivos generados por el entorno de desarrollo
-.idea/
-.vscode/
+# Archivos de configuración
+*.log
+*.config
+
+# Directorios generados
+/bin/
+/build/
+/target/
+
+# Dependencias y librerías
+/node_modules/
+/vendor/
+
+# Archivos temporales
+*.tmp
 *.swp
 
-# Dependencias y paquetes
-/node_modules/
-/bower_components/
+# IDE y editores específicos
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
 
-# Archivos de compilación
-/build/
-/dist/
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
 
-# Archivos de registro y salida
-/logs/
-*.log
-
-# Archivos sensibles o de configuración local
-.env
-.env.local
-.env.*.local
-.env.test
-.env.production
-
-# Archivos de respaldo
-*~
+# Archivos de respaldo y temporales
 *.bak
+*.backup
+*.old

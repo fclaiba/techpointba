@@ -1,21 +1,37 @@
-//Módulos
+//Modules
+
 const express = require('express');
 const app = express();
 const path= require('path');
-const methodOverride = require('method-override')
+const userLoggedMiddleware = require('./middlewares/userLoggedMiddleware')
+const methodOverride = require('method-override');
+const session = require('express-session');
+const cookies = require('cookie-parser');
+
+
 
 const mainRouter = require('./routes/mainRouter');
 const userRouter = require('./routes/userRouter');
 const productsRouter = require('./routes/productsRouter');
 
-//Configuración
-app.use(express.static(path.join(__dirname, '../public')));
-app.use(express.static(path.join(__dirname, '../img')));
+app.use(express.urlencoded({extended: false}));
+
+
+app.use(session({
+    secret: "Es secreto",
+    resave: false,
+    saveUninitialized: false,
+}));
+
+//Configuration
+app.use(express.static(__dirname + '/../public'));
 app.use(express.urlencoded({ extended: false }));
 app.use(methodOverride('_method'));
-app.use(express.json())
+app.use(express.json());
+app.use(cookies());
+app.use(userLoggedMiddleware);
 
-//Motor de Plantillas
+//Template Engine
 app.set('views', path.join(__dirname, './views'));
 app.set('view engine', 'ejs');
 
@@ -24,5 +40,11 @@ app.listen(process.env.PORT || 3000, () => {
 })
 
 app.use('/', mainRouter);
-app.use('/user', userRouter);
+app.use('/users', userRouter);
 app.use('/products', productsRouter);
+
+
+
+
+
+
