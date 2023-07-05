@@ -1,30 +1,9 @@
 [
  {
   "id": 1,
-  "usuario": "Jero",
-  "email": "jeros_lp@hotmail.com",
-  "password": "$2a$10$nDgq9ko2uONaw.zxsen9KuUE6NwQH.1stSyZLYJAIm9MzR70j/Ngq",
-  "img": "1677023514665.png"
- },
- {
-  "id": 2,
-  "usuario": "Jero",
-  "email": "jeroslp@gmail.com",
-  "password": "$2a$10$zBSclZfVcRq9fshTainT/.CBFaZIoUl2SXRRUsPLo1A2xB66KhKbe",
-  "img": "1677080916464.png"
- },
- {
-  "id": 3,
-  "usuario": "dekkernicolas",
-  "email": "dekkernicolas@gmail.com",
-  "password": "$2a$10$QLJ3OtGkCEQ.d1RZI7HEuOwqywqXlrsACYA1GOR56H0F6Zw2jAGT2",
-  "img": "1677115224272.jpg"
- },
- {
-  "id": 4,
-  "usuario": "nico",
-  "email": "nico_@gmail.com",
-  "password": "$2a$10$w2LuQxlmofqnQBvhH4JAdehcjEUWcr6mZVdgDzOICfEuOKafvhYZi",
-  "img": "1677168711922.png"
+  "usuario": "juan",
+  "email": "juan@gmail.com",
+  "password": "password",
+  "img": "MSI raider 1.png"
  }
 ]
