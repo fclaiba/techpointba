@@ -24,7 +24,7 @@ app.use(session({
 }));
 
 //Configuration
-app.use(express.static(__dirname + '/../public'));
+app.use(express.static('public'));
 app.use(express.urlencoded({ extended: false }));
 app.use(methodOverride('_method'));
 app.use(express.json());

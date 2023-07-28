@@ -1,9 +1,35 @@
 [
- {
-  "id": 1,
-  "usuario": "juan",
-  "email": "juan@gmail.com",
-  "password": "password",
-  "img": "MSI raider 1.png"
- }
-]
+    {
+      "id": 1,
+      "usuario": "fclaiba",
+      "email": "prueba@gmail.com",
+      "pass": "1234",
+      "imagen": "1678799748928.jpg",
+      "roles_id": 2
+    },
+    {
+      "id": 2,
+      "usuario": "juan",
+      "email": "juan@email.com",
+      "pass": "1234",
+      "imagen": "1678799808486.jpg",
+      "roles_id": 2
+    },
+    {
+      "id": 3,
+      "usuario": "pedro",
+      "email": "pedro@gmail.com",
+      "pass": "1234",
+      "imagen": "1678799842178.jpg",
+      "roles_id": 2
+    },
+    {
+      "id": 4,
+      "usuario": "pepe",
+      "email": "user@hotmail.com",
+      "pass": "1234",
+      "imagen": "1678799875795.jpg",
+      "roles_id": 1
+    }
+  ]
+  
