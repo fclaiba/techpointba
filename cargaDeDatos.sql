@@ -24,8 +24,8 @@ VALUES  (1,'usuario'),
 		(2,'super usuario');
         
 INSERT INTO usuarios (id,usuario,email,pass,imagen,roles_id)
-VALUES  (1,"fclaiba",'prueba@gmail.com','1234','1678799748928.jpg',2),
-		(2,"juan",'juan@email.com','1234','1678799808486.jpg',2),
-		(3,"pedro",'pedro@gmail.com','1234','1678799842178.jpg',2),
-        (4,"pepe",'user@hotmail.com','1234','1678799875795.jpg',1);
+VALUES  (1,"Juan",'juan@hotmail.com','1234','1678799748928.jpg',2),
+		(2,"Pedro",'pedro@yahoo.com.ar','1234','1678799808486.jpg',2),
+		(3,"Nico",'nico@gmail.com','1234','1678799842178.jpg',2),
+        (4,"gonzalo",'gonza@hotmail.com','1234','1678799875795.jpg',1);
 

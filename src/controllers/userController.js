@@ -24,33 +24,6 @@ const controllerUser = {
         return userFound;
     },
 
-    /* findOne: async function (usuarioId) {
-        try {
-            const userFound = await db.Usuarios.findOne({ where: { id: usuarioId } });
-            return userFound;
-        } catch (error) {
-            console.error(error);
-        }
-    }, */
-
-    /* findByField: (field, text) => {
-        let allUser = controllerUser.findAll();
-        let userFound = allUser.find(oneUser => oneUser[field] === text)
-        return userFound;
-    }, */
-
-    /* create: (userData) => {
-        let allUser = controllerUser.findAll();
-        let newUser = {
-            id: controllerUser.generateId(),
-        
-            ...userData
-        }
-        allUser.push(newUser);
-        fs.writeFileSync(controllerUser.fileName, JSON.stringify(allUser, null, ' '));
-        return newUser
-    },
- */
     generateId: () => {
         let allUser = controllerUser.findAll();
         let lastUser = allUser.pop();
@@ -59,16 +32,15 @@ const controllerUser = {
         }
         return 1;
     },
-
-    /* delete: (id) => {
-        let allUser = controllerUser.findAll();
-        let finalUsers = allUser.filter(oneUser => oneUser.id !== id);
-        fs.writeFileSync(controllerUser.fileName, JSON.stringify(finalUsers, null, ' '));
-        return true;
-    }, */
-
+    
     registerProcess: async (req, res) =>{
         try {
+                const errors = validationResult(req);
+                if (!errors.isEmpty()) {
+                    console.log(errors);
+                    return res.render("users/register", {errors : errors.mapped(),infoEscrita: req.body})
+                    
+                }
             await db.Usuarios.create({
                 usuario: req.body.usuario,
                 email: req.body.email,
@@ -76,9 +48,11 @@ const controllerUser = {
                 roles_id: 1,
                 pass: bycriptjs.hashSync(req.body.password,10),
             });
+            
             return res.redirect('login');
         } catch (error) {
-            res.send(error);
+            res.render("users/register", {error})
+            
     }},
     
     register: (req,res) =>{
